@@ -2,7 +2,6 @@ import "./App.css";
 import React, { useState, useEffect } from "react";
 import StudentList from "./components/studentlist";
 import axios from "axios";
-
 function App() {
   const [studentList, setStudentList] = useState([]);
 
@@ -32,5 +31,4 @@ function App() {
     </div>
   );
 }
-
 export default App;
